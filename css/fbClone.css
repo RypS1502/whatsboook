@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+    font-family: face;
+    src: url('fonts/FACEBOLF.OTF');
+}
+
+body{
+    width: 95vw;
+    height: 115vh;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255) 5%, #e4fbfd);
+    max-width: 100vw;
+}
+
+
+header{
+    width: 100%;
+    height: 12%;
+    background-image: linear-gradient(to top, rgb(33, 158, 158) 50%, rgb(71, 165, 165));
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#contLogo{
+    width: 30vw;
+    height: 100%;
+    top: 1.5vh;
+    position: absolute;
+    padding-left: 10vw;
+}
+#logo{
+    width: 18vw;
+    height: 100%;
+    color: white;
+    font-family: face;
+    font-size: 3em;
+}
+
+#forIngreso{
+    width: 50vw;
+    height: 100%;
+    position: absolute;
+    right: 0vw;
+}
+.datosIngreso{
+    width: 33%;
+    line-height: 3.6vh;
+    float: left;
+    padding-top: 0.5vh;
+}
+.texto1{
+    font-size: 0.9vw;
+    font-weight: 500;
+    color: white;
+}
+.texto2{
+    font-size: 0.9vw;
+    font-weight: 500;
+    color: rgb(97, 241, 241);
+}
+
+#btnEntrar{
+    width: 7vw;
+    background-image: linear-gradient(to top, rgb(40, 168, 168) 50%, rgb(105, 211, 211));
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+#btnEntrar:hover{
+    background-image: linear-gradient(to top, rgb(23, 102, 102) 50%, rgb(96, 172, 172));
+}
+
+
+#registroZone{
+    width: 30%;
+    position: absolute;
+    top: 12%;
+    left: 57%;
+    line-height: 2em;
+}
+#registro{
+    line-height: 3em;
+    padding-top: 1em;
+}
+.tituloG{
+    font-size: 2.2em;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+}
+.subtitulo1{
+    font-size: 1.1em;
+    font-weight: 500;
+    color: rgb(49, 49, 49);
+}
+.nomYap{
+    width: 43%;
+}
+.tamImput{
+    width: 96%;
+}
+.inputs{
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 8px;
+    height: 5.3vh;
+    border-radius: 7px;
+    border: solid 1px rgb(150, 150, 150);
+}
+
+#selectores{
+    width: 100%;
+    height: 20%;
+    line-height: 2.2em;
+}
+.tamSelector{
+    width: 15%;
+    height: 2em;
+    font-size: 0.9em;
+    padding-left: 6px;
+    border-radius: 6px;
+}
+#sexo{
+    font-size: 1.1em;
+    line-height: 0.5;
+}
+.texto{
+    width: 76%;
+    padding-top: 1em;
+    line-height: 1.5em;
+    font-size: 0.7em;
+    font-weight: 600;
+    color: rgb(49, 49, 49);
+}
+
+#btnReg{
+    width: 16vw;
+    height: 6vh;
+    margin-top: 1.1em;
+    text-align: center;
+    background-image: linear-gradient(to top, rgb(40, 168, 168) 50%, rgb(105, 211, 211));
+    font-size: 1.1em;
+    font-weight: 500;
+    line-height: 1.5em;
+    border-radius: 8px;
+    border: solid 1px rgb(23, 107, 107);
+    color: white;
+}
+#btnReg:hover{
+    background-image: linear-gradient(to top, rgb(21, 117, 117) 50%, rgb(124, 231, 231));
+}
+
+
+#mensajeZone{
+    width: 32%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    line-height: 1.8em;
+    font-size: 1.11em;
+    font-weight: 700;
+    color: rgb(8, 65, 65);
+}
+#personas{
+    margin-top: 8%;
+    width: 90%;
+}
